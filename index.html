@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Profile</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; padding: 40px; margin: 0;">
+
+    <div style="background: white; width: 100%; max-width: 450px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        
+        <!-- Ảnh bìa (Cover Photo) -->
+        <div style="height: 140px; background: linear-gradient(135deg, #0095f6, #6a11cb);"></div>
+
+        <!-- Khung thông tin cá nhân -->
+        <div style="padding: 0 20px 20px 20px; text-align: center;">
+            
+            <!-- Avatar đè lên ảnh bìa -->
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb" style="width: 90px; height: 90px; border-radius: 50%; border: 4px solid white; margin-top: -45px; object-fit: cover; background: white;">
+            
+            <h2 style="margin-top: 10px; color: #333; font-size: 22px;">Phạm Thị Thúy</h2>
+            <p style="color: #666; font-size: 14px; margin: 8px 0;">IT Student & Web Developer in Progress 💻 | Learning HTML, CSS & Git.</p>
+            
+            <!-- Thống kê -->
+            <div style="display: flex; justify-content: center; gap: 25px; margin: 15px 0; font-size: 14px; color: #444;">
+                <div><strong>120</strong> Following</div>
+                <div><strong>1.5K</strong> Followers</div>
+            </div>
+
+            <!-- Nút bấm -->
+            <div style="display: flex; gap: 10px; justify-content: center; margin-bottom: 20px;">
+                <button style="flex: 1; background: #0095f6; color: white; border: none; padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer;">Follow</button>
+                <button style="flex: 1; background: #e4e6eb; color: #333; border: none; padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer;">Message</button>
+            </div>
+
+            <!-- Đường kẻ phân cách -->
+            <hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 15px;">
+
+            <!-- Bộ sưu tập ảnh (CSS Grid - 3 cột) -->
+            <h3 style="text-align: left; font-size: 14px; color: #666; margin-bottom: 10px;">Ảnh đã đăng</h3>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" style="width: 100%; height: 110px; object-fit: cover; border-radius: 6px;">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" style="width: 100%; height: 110px; object-fit: cover; border-radius: 6px;">
+                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" style="width: 100%; height: 110px; object-fit: cover; border-radius: 6px;">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
